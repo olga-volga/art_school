@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Детская школа искусств №2 п. Подгорный</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.header__burger').click(function(event) {
+					$('.header__burger, .header__menu').toggleClass('active');
+					$('body').toggleClass('lock');
+				});
+				$('.header__menu').click(function(event) {
+					$('.header__burger, .header__menu').removeClass('active');
+					$('body').removeClass('lock');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="container">
+					<div class="header-body">
+						<a href="" class="header__logo">
+							<img src="img/logo-middle.jpg" alt="">
+						</a>
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li><a href="" class="header__link header__link--y">Главная</a></li>
+								<li><a href="#programs" class="header__link">Направления</a></li>
+								<li><a href="#" class="header__link">Преподаватели</a></li>
+								<li><a href="#" class="header__link">Афиша</a></li>
+								<li><a href="#" class="header__link">Новости</a></li>
+								<li><a href="#contacts" class="header__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<div class="content">
+				<main class="main">
+					<div class="main-body">
+						<h1 class="main__title">Открыт набор учащихся на учебный год 2020-2021</h1>
+						<div class="main-btn">
+							<a href="" class="main__btn btn">Узнать детали</a>
+						</div>
+					</div>	
+				</main>
+				<section class="about" id="about">
+					<div class="container">
+						<h2 class="about__title title--h2">Детская школа искусств №2 поселка Подгорный</h2>
+						<div class="about-body">
+							<div class="about-column">
+								<div class="about__img"></div>
+							</div>
+							<div class="about-column">
+								<div class="about-column-item">
+									<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa odit, hic numquam alias velit nulla quia, sint dolore illo repellat quas architecto totam quae dolores. Sequi dolore non vero, dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ullam quas officiis tempore aperiam, ipsa minus, incidunt commodi similique eum amet laudantium corporis aliquid maiores aspernatur placeat unde molestias quidem?</p>
+									<div class="about-btn">
+										<a href="" class="about__btn btn">О школе</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="programs" id="programs">
+				 	<div class="container">
+						<h2 class="programs__title title--h2">Направления обучения</h2>
+						<h3 class="programs__subtitle subtitle--h3 subtitle--h3--g">Музыкальное отделение</h3>
+						<div class="programs-row-x4">
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/01.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Фортепиано</a>
+									<p class="programs-item__subtitle">Струнный ударно-клавишный музыкальный инструмент</p>
+								</div>
+							</div>
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/02.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Скрипка</a>
+									<p class="programs-item__subtitle">Cтрунный смычковый инструмент высокого регистра</p>
+								</div>
+							</div>
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/03.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Балалайка</a>
+									<p class="programs-item__subtitle">Русский народный трехструнный щипковый инструмент</p>
+								</div>
+							</div>
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/04.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Домра</a>
+									<p class="programs-item__subtitle">Народный струнный щипковый музыкальный инструмент</p>
+								</div>
+							</div>
+						</div>
+						<div class="programs-row-x4">
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/05.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Баян</a>
+									<p class="programs-item__subtitle">Русская хроматическая ручная гармоника</p>
+								</div>
+							</div>
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/06.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Аккордеон</a>
+									<p class="programs-item__subtitle">Хроматическая ручная гармоника с клавиатурой фортепианного типа</p>
+								</div>
+							</div>
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/07.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Вокальное исполнительство</a>
+									<p class="programs-item__subtitle">Эстрадное пение</p>
+								</div>
+							</div>
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/07.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Музыкальный фольклор</a>
+									<p class="programs-item__subtitle">Народное пение</p>
+								</div>
+							</div>
+						</div>
+						<h3 class="programs__subtitle subtitle--h3 subtitle--h3--g">Художественное отделение</h3>
+						<div class="programs-row-x2">
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/08.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Изобразительное искусство</a>
+									<p class="programs-item__subtitle">Живопись, рисунок, композиция, история искусства</p>
+								</div>
+							</div>
+							<div class="programs-column">
+								<div class="programs-item">
+									<div class="programs-item-img">
+										<a href="" class="programs-item__img">
+											<img src="img/programs/08.svg" alt="">
+										</a>
+									</div>
+									<a href="" class="programs-item__title">Раннее эстетическое развитие</a>
+									<p class="programs-item__subtitle">Развитие творческих навыков с малых лет</p>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</section>
+				<section class="contacts" id="contacts">
+					<div class="container">
+						<h2 class="contacts__title title--h2">Контактная информация</h2>
+						<div class="contacts-body">
+							<div class="contacts-column">
+								<div class="contacts__img"></div>
+								<img src="img/contacts/02.JPG" alt="">
+							</div>
+							<div class="contacts-column">
+								<div class="contacts-column-item">
+									<h3 class="contacts__subtitle subtitle--h3">Адрес:</h3>
+									<p class="contacts__text">662991, Красноярский край, ЗАТО Железногорск, пос. Подгорный, ул. Лесная, д. 11</p>
+									<h3 class="contacts__subtitle subtitle--h3">График работы:</h3>
+									<p class="contacts__text">Понедельник - суббота с 8:00 до 21:00, воскресенье - выходной день</p>
+									<h3 class="contacts__subtitle subtitle--h3">Телефон:</h3>
+									<p class="contacts__text">8 (3919) 79-63-14, 79-99-00</p>
+									<h3 class="contacts__subtitle subtitle--h3">Электронная почта:</h3>
+									<a href="mailto:moudshi@mail.ru" class="contacts__email">moudshi@mail.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-top">
+						<button class="footer-top__btn" onclick="footerMenu()"><img src="img/footer/arrow.svg" alt=""></button>
+						<div class="footer-row" id="footerRow">
+							<div class="footer-column">
+							</div>
+							<div class="footer-column">
+								<div class="footer-item">
+									<a href="" class="footer-item__subtitle subtitle--h3 subtitle--h3--w">О школе</a>
+									<a href="" class="footer-item__link">Общая информация</a>
+									<a href="" class="footer-item__link">История школы</a>
+									<a href="" class="footer-item__link">Администрация школы</a>
+									<a href="" class="footer-item__link">Преподаватели</a>
+								</div>
+							</div>
+							<div class="footer-column">
+								<div class="footer-item">
+									<a href="" class="footer-item__subtitle subtitle--h3 subtitle--h3--w">Направления</a>
+									<a href="" class="footer-item__link">Инструментальное исполнительство</a>
+									<a href="" class="footer-item__link">Вокальное исполнительство</a>
+									<a href="" class="footer-item__link">Музыкальный фольклор</a>
+									<a href="" class="footer-item__link">Изобразительное искусство</a>
+									<a href="" class="footer-item__link">Раннее эстетическое развитие</a>
+								</div>
+							</div>
+							<div class="footer-column">
+								<div class="footer-item">
+									<a href="" class="footer-item__subtitle subtitle--h3 subtitle--h3--w">Дополнительно</a>
+									<a href="" class="footer-item__link">Новости</a>
+									<a href="" class="footer-item__link">Афиша</a>
+									<a href="" class="footer-item__link">Галерея</a>
+									<a href="" class="footer-item__link">Контакты</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-bottom">
+						<i class="footer__rights">МБУ ДО "Детская школа искусств №2" п. Подгорный &copy; 2020.</i>
+						<i class="footer__privacy">Использование материалов сайта возможно по согласованию с администрацией учреждения.</i>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script>
+			function headerMenu() {
+	  			var x = document.getElementById("HeaderMenuMob");
+				if (x.className === "header-menu") {
+					x.className += " responsive";
+				} else {
+					x.className = "header-menu";
+				}
+			}
+			function footerMenu() {
+				var a = document.getElementById("footerRow");
+				if (a.style.display === "none") {
+				    a.style.display = "flex";
+				} else {
+				    a.style.display = "none";
+				}
+			}
+		</script>
+	</body>
+</html>
